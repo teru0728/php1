@@ -4,12 +4,12 @@ $a = 3 ;
 $b = 7 ;
 echo $a + $b ;
 $array_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-echo $array_month[9];
+echo $array_month[7];
 $hello = " Hello, ";
-$name = " Teruki, ";
-$world = " 's World";
+$name = " Teruki ";
+$world = " 's World!";
 echo $hello .$name . $world ;
-$tech_boost = "tech" ;
+$tech_boost = "tech " ;
 $tech_boost .= "boost" ;
 echo $tech_boost ;
 $new2018_calendar = [
