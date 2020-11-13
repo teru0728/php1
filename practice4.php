@@ -6,15 +6,15 @@ if ($name != "福田晃生") {
     echo "私は福田晃生です";
 }
 $total = 0;
-for ($i = 0; $i <= 10000; $i++) {
+for ($i = 1; $i <= 10000; $i++) {
     $total += $i;
 }
 echo $total;
 $fruits = array("apple", "cherry","pineapple","pear","peach");
-foreach($fruits as $fruits){
-    echo "要素は". $fruits;
-    echo "\n";
+foreach($fruits as $fruit){
+    echo $fruit.PHP_EOL;
 }
+
 /* for文の始めの値を定義する */
 $start = 1;
 /* for文の終わりの値を定義する */
